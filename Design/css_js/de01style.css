@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.first_table{
+    font-size: 250%;
+    text-align: center;
+
+    width: 20%;
+}
+
+#second_table{
+    font-size: 150%;
+    text-align: center;
+
+    width: 50%;
+
+    margin-top: -100px;
+    margin-left: 150px;
+}
