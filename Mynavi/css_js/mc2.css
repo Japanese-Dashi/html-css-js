@@ -6,6 +6,10 @@
     padding: 30px;
 }
 
+.control{
+    margin-bottom: 3em;
+}
+
 input{
     border-bottom: 1px solid #d1d1d1;
     font-size: 1.2em;
@@ -18,4 +22,15 @@ button{
     background-color: #2096F3;
     color: #fff;
     padding: 15px;
+/*
+paddingは要素内余白の設定
+*/
+
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+/*
+border-radius: 数値; で角が丸くなる(数値は丸みを表す)
+box-shadow:x位置, y位置, ぼかし具合, 色 ; でドロップシャドウを設定
+*/
+
 }
