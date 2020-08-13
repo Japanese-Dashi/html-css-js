@@ -2,4 +2,26 @@
 .name1{
     height: 25px;
     width: 200px;
+    margin: 8px;
+}
+
+.radio1{
+    height: 30px;
+    width: 220px;
+    margin: 8px;
+}
+
+.seop1{
+    height: 20px;
+    width: 100px;
+    margin: 8px;
+}
+
+.text1{
+    margin: 5px;
+}
+
+.btn{
+    margin-top: -80px;
+    margin-left: 250px;
 }
