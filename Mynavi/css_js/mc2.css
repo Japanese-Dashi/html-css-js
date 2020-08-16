@@ -1,4 +1,9 @@
+body{
+    background-color: #fafafa;
+}
+
 .content{
+
     background-color: #fff;
     width: 400px;
     margin: 10px auto;
@@ -32,5 +37,18 @@ paddingは要素内余白の設定
 border-radius: 数値; で角が丸くなる(数値は丸みを表す)
 box-shadow:x位置, y位置, ぼかし具合, 色 ; でドロップシャドウを設定
 */
+}
 
+label{
+    display: block;
+    margin-bottom: 5em;
+}
+
+.required{
+    margin-left: .7em;
+    color: #f33;
+    font-size: .7em;
+    padding: 3px;
+    background-color: #fee;
+    font-weight: bold;
 }
