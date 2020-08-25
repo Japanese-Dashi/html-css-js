@@ -3,7 +3,7 @@
 body {
     background-color: #f0f0f0;
     padding: 10px;
-    font-size: 14px;
+    font-size: 20px;
     color: #666;
 }
 
@@ -21,7 +21,57 @@ header{
 
 header h1{
     margin: 0;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: normal;
     text-align: center;
+}
+
+.desc img{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.info h1{
+    font-size: 26px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.info .typo{
+    display: inline;
+    background-color: #e35a4d;
+    padding: 3px 5px;
+    font-size: 80%;
+    color: #fff;
+}
+
+.desc{
+    clear: left;
+}
+
+.songs h2{
+    clear: left;
+    font-weight: normal;
+    margin: 0;
+    font-size: 28px;
+    background-color: #e6e4dd;
+}
+
+.songs ol{
+    padding: 0;
+    margin: 0;
+    list-style: decimal inside;
+}
+
+.songs li{
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+    float: left;
+    padding: 5px 10px;
+}
+
+.clearfix:after{
+    content:" ";
+    display: table;
+    clear: both;
 }
