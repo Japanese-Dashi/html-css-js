@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.headerH1{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.headerP{
+    font-size: 18px;
+    color: darkgray;
+}
+
+li{
+    font-size: 18px;
+}

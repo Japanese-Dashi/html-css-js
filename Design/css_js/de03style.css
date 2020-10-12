@@ -1,17 +1,32 @@
 @charset "UTH-8";
+.header{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav{
+    color: darkgray;
+    font-size: 18px;
+    
+}
+
 .h03_01{
     color: grey;
     margin-left: 20px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .p03_01{
+    color: black;
     text-align: center;
     font-size: 20px;
 }
 
 article{
     background-color: springgreen;
+    border: 1px black;
 }
 
 section{
