@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScriptのサンプル1</title>
+        
+    </head>
+
+    <body>
+        <h1><center id="def_h1_center">ボタンでダイアログ</center></h1>
+        <button onclick="showMessages()"><center>押してね</center></button>
+
+        <script>
+            function showMessages(){
+                // アラートを表示
+                alert("押されてるねぇ");
+
+                // centerタグで設定したIDを取得、変数にh1CenterIdに格納
+                const h1CenterId = document.getElementById("def_h1_center");
+                // innerHTMLプロパティで内容を、取得したID内の内容を書き換える
+                h1CenterId.innerHTML = "内容が変更されたよ";
+                // 変数名.style.colorの構文で文字の色を変更
+                h1CenterId.style.color = "red";
+            }
+        </script>
+
+    </body>
+</html>
