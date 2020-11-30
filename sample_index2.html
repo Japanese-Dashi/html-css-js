@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>おかりんのやつ</title>
+        <script>
+            function ShowMessage(txt){
+                const TT = document.getElementById("TitleText");
+                TT.innerHTML = txt;
+            };
+        </script>
+    </head>
+
+    <body>
+        <h1 id="TitleText">ボタンを押すと文が変わる</h1>
+
+        <button onclick="ShowMessage('ぴえん')">ボタン1</button>
+        <button onclick="ShowMessage('ぱおん')">ボタン2</button>
+        <button onclick="ShowMessage('ぴやまる')">ボタン3</button>
+    </body>
+</html>
